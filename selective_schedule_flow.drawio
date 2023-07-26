@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-26T05:09:49.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.5.1" etag="nV89PAfWvK-liibOi09n" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-26T05:20:25.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Utb9or2GbS5StgoVhSv7" version="21.5.1" type="github">
   <diagram name="Page-1" id="DNUC9zWv7i5fIQIDiEq1">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OpvH1--ZX9xDzz7mLB65-1" value="Seminar with &lt;br&gt;dynamic schedule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

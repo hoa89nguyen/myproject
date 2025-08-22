@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.1.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="28.1.0" pages="4">
   <diagram name="Page-1" id="GwSRB3UJWiJoSr_9Pyj3">
     <mxGraphModel dx="1290" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FvGft4gex_3UqNwgsc6S" name="Page-2">
-    <mxGraphModel dx="1018" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,7 +197,7 @@
           <mxGeometry x="200" y="90" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bbwy4Gog5CCaHKoVdkQx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="68" width="10" height="412" as="geometry" />
+          <mxGeometry x="110" y="68" width="10" height="502" as="geometry" />
         </mxCell>
         <mxCell id="bbwy4Gog5CCaHKoVdkQx-9" value="Show BG login form" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="120" width="130" height="30" as="geometry" />
@@ -214,53 +214,172 @@
         <mxCell id="bbwy4Gog5CCaHKoVdkQx-13" value="Yes -&amp;gt;&amp;nbsp; Perform login BG locally&lt;br&gt;Issue opaque token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="415" y="225" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bbwy4Gog5CCaHKoVdkQx-7">
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.3;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="293.07" as="sourcePoint" />
+            <mxPoint x="123" y="295.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-15" value="return authorization code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="265" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121" y="412.1" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-17" value="Use authorization code to get access token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="300" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-18" value="Get customer info using token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="596" y="430" as="sourcePoint" />
+            <mxPoint x="120" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-20" value="return customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-22" value="Perform login&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.444;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.92000000000007" y="527.01" as="sourcePoint" />
+            <mxPoint x="600" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-24" value="Logged user navigates to BG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-25" value="Auto login by session already created" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="607" y="500" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbwy4Gog5CCaHKoVdkQx-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="MeK9TfQka0RqiCHpn9bO-1" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Create cookies for BG domain for next login&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="545" y="248" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-en8WnSV0a9rrTDHa7Z-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.544;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.1;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bbwy4Gog5CCaHKoVdkQx-7" target="bbwy4Gog5CCaHKoVdkQx-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-en8WnSV0a9rrTDHa7Z-2" value="get access token by authorization code + client id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-en8WnSV0a9rrTDHa7Z-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.4;exitY=0.606;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.4;entryY=0.602;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="592" y="358.85999999999996" as="sourcePoint" />
+            <mxPoint x="120" y="360.00399999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-en8WnSV0a9rrTDHa7Z-4" value="Response access token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="264" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-en8WnSV0a9rrTDHa7Z-6" value="Issue access token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-en8WnSV0a9rrTDHa7Z-9" value="Return customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="605" y="408" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-2" id="hmw4eMJxLOozPkk9tm7V">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-0" />
+        <mxCell id="ynwObpVT4vt1erJDsg4F-1" parent="ynwObpVT4vt1erJDsg4F-0" />
+        <mxCell id="ynwObpVT4vt1erJDsg4F-2" value="HairGora" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="90" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-3" value="BG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="585" y="30" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="120" as="sourcePoint" />
+            <mxPoint x="600" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-5" value="login By BG" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="200" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="110" y="68" width="10" height="412" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-7" value="Show BG login form" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="450" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-8" value="Input Username and password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="600" y="140" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-9" value="BG validate user&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;name and password&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="390" y="170" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-10" value="Error -&amp;gt; show error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="600" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-11" value="Yes -&amp;gt;&amp;nbsp; Perform login BG locally&lt;br&gt;Issue opaque token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="415" y="225" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.573;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ynwObpVT4vt1erJDsg4F-1" target="ynwObpVT4vt1erJDsg4F-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="300" as="sourcePoint" />
             <mxPoint x="440" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-15" value="return Token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-13" value="return Token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="205" y="278" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.4;exitY=0.665;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bbwy4Gog5CCaHKoVdkQx-7">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.4;exitY=0.665;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ynwObpVT4vt1erJDsg4F-1" source="ynwObpVT4vt1erJDsg4F-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="340" as="sourcePoint" />
             <mxPoint x="600" y="342" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-17" value="Validate if token is valid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-15" value="Validate if token is valid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry y="308" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-18" value="Get customer info using token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-16" value="Get customer info using token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="200" y="338" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.4;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="bbwy4Gog5CCaHKoVdkQx-7">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.4;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ynwObpVT4vt1erJDsg4F-1" target="ynwObpVT4vt1erJDsg4F-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="390" as="sourcePoint" />
             <mxPoint x="440" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-20" value="return customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-18" value="return customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="275" y="388" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-22" value="Perform login&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-19" value="Perform login&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="10" y="398" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.4;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="bbwy4Gog5CCaHKoVdkQx-7">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.4;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ynwObpVT4vt1erJDsg4F-1" source="ynwObpVT4vt1erJDsg4F-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="460" as="sourcePoint" />
             <mxPoint x="600" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-24" value="Logged user navigates to BG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-21" value="Logged user navigates to BG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="40" y="438" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-25" value="Auto login by session already created" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-22" value="Auto login by session already created" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="610" y="438" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bbwy4Gog5CCaHKoVdkQx-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ynwObpVT4vt1erJDsg4F-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
           <mxGeometry x="600" y="60" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="ynwObpVT4vt1erJDsg4F-24" value="Create cookies for BG domain&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ynwObpVT4vt1erJDsg4F-1">
+          <mxGeometry x="580" y="248" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -305,24 +424,24 @@
         </mxCell>
         <mxCell id="0a7JW_RbAloRx4c0pagf-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="0a7JW_RbAloRx4c0pagf-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="300" as="sourcePoint" />
-            <mxPoint x="130" y="300" as="targetPoint" />
+            <mxPoint x="600" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0a7JW_RbAloRx4c0pagf-13" value="return Token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
-          <mxGeometry x="205" y="278" width="90" height="30" as="geometry" />
+        <mxCell id="0a7JW_RbAloRx4c0pagf-13" value="return authorization code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
+          <mxGeometry x="160" y="250" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0a7JW_RbAloRx4c0pagf-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0a7JW_RbAloRx4c0pagf-1" source="0a7JW_RbAloRx4c0pagf-6">
+        <mxCell id="0a7JW_RbAloRx4c0pagf-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="0a7JW_RbAloRx4c0pagf-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="340" as="sourcePoint" />
-            <mxPoint x="600" y="342" as="targetPoint" />
+            <mxPoint x="121" y="303.68000000000006" as="sourcePoint" />
+            <mxPoint x="600" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0a7JW_RbAloRx4c0pagf-15" value="Validate if token is valid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
-          <mxGeometry y="308" width="150" height="30" as="geometry" />
+        <mxCell id="0a7JW_RbAloRx4c0pagf-15" value="Use authorization code to get access token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
+          <mxGeometry x="-40" y="270" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0a7JW_RbAloRx4c0pagf-16" value="Get customer info using token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
-          <mxGeometry x="200" y="338" width="180" height="30" as="geometry" />
+        <mxCell id="0a7JW_RbAloRx4c0pagf-16" value="get access token by authorization code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
+          <mxGeometry x="190" y="300" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0a7JW_RbAloRx4c0pagf-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.1;entryY=0.453;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0a7JW_RbAloRx4c0pagf-1" target="0a7JW_RbAloRx4c0pagf-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -407,6 +526,15 @@
         </mxCell>
         <mxCell id="awfVdlQ2BJ4CVYRybH3D-17" value="Plan B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
           <mxGeometry x="260" y="728" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="awfVdlQ2BJ4CVYRybH3D-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.41;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.25;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0a7JW_RbAloRx4c0pagf-1" source="0a7JW_RbAloRx4c0pagf-6" target="0a7JW_RbAloRx4c0pagf-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="awfVdlQ2BJ4CVYRybH3D-19" value="get customer info by access token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0a7JW_RbAloRx4c0pagf-1">
+          <mxGeometry x="200" y="350" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
